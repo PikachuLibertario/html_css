@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+div{
+    background-color: darkgray;
+    text-align: center; /*alinhamento do texto*/
+    height: 100px;
+    width: 100px;
+    border: 1px solid red; /*borda*/
+    display: inline-block; /*deixa um do lado do outro*/
+}
+
+/*pseudo-classe para a div, houver --> quando passar o mouse por cima*/
+div:hover {
+    background-color: rgb(0, 204, 0);
+}

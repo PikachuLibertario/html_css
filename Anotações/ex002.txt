@@ -1,0 +1,22 @@
+&lt;	sinal de menor
+&gt;	sinal de maior
+ex:
+no html:
+&lt;p&gt; escreve ----> <p> no página web
+
+comentário no html:
+<!--seu texto-->
+
+simbolos especiais:
+&reg; ---> simbolo registrado
+&copy; ---> copyright
+&trade; ---> TM
+&euro; ---> simbolo da moeda euro
+&Delta; ---> sinal DELTA
+&uarr; ---> seta pra cima
+
+Emojis:
+https://emojipedia.org/
+
+ex:
+&#x1F970;

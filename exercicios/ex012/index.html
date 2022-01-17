@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+    <title>Vídeos</title>
+    <style>
+        body{
+            background-color: rgb(22, 20, 20);
+        }
+        h1{
+            font: normal 20pt arial;
+            color: white;
+        }
+        p{
+            font: normal 14pt arial;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Vídeos hospedados localmente</h1>
+    <p>Estes vídeos está hospedado em meu próprio servidor:</p>
+
+    <video preload="metadata" width="560" controls poster="img/capa.png">
+        <source src="media/rapmagos.mp4" type="video/mp4">
+        <p>
+            Seu navegador não tem compatibilidade com .mp4, <a href="media/rapmagos.mp4" target="_blank">clique aqui</a> para baixar o vídeo.
+        </p>
+    </video>
+    <!--Esse metodo de hospedar midia no próprio site custa muito caro devido aos acessor exigirem muitos dados de tráfego-->
+
+    <h1>Inserindo vídeos hospedados externamente:</h1>
+    <p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/cJA8371FeOA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="rumble" width="560" height="315" src="https://rumble.com/embed/vpi573/?pub=9wu1x" frameborder="0" allowfullscreen></iframe>
+    </p>
+    <!--Esse metodo é o mais barato e consome quase nada de dados do site. Por isso é melhor criar um conta no youtube e upar os videos e colocar eles no site com o link pronto do youtube-->
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em dispositivos diferentes ou aumente  e diminua o tamanho do site.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/media.png" type="image/png">
+        <img src="img/grande.png" alt="imagem flexivel">
+    </picture>
+    <!--(max-width: 1050px), se o navagador tiver tamanho menor que 1050px vai carregar a img média, (max-width: 750px) se for menor que 750px vai carregar a img pequena, esses 50px a mais serve para evitar a parte de rolagem na tela do usuario pois incomoda-->
+    <!--F12 no teclado, acima do botão de apagar, se você usa o Chrome dá pra usar, o operagx por exemplo não dá pra usar. Depois pra ver como celular é só apertar Crtl + shift + M-->
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudio em html5.</p>
+    <audio preload="none" controls>
+        <source src="media/dontblame.ogg" type="audio/ogg">
+    </audio>
+    <!--Nem todos os navegadores são compativeis com todos os tipos de audio, como mp3,ogg,etc. Então é melhor ter o áudio em todos os principais formatos
+    ex:
+    <source src="media/dontblame.mp3" type="audio/mpeg">
+    <source src="media/dontblame.ogg" type="audio/ogg">
+    <source src="media/dontblame.wav" type="audio/wav">
+    ele ira testar todos esses tipos e caso não seja compativel, adicione isso abaixo dos source:
+        <p>Infelizmente seu navegador não consegue reproduzir esse áudio. <a href="media/dontblame.ogg" target="_blank">Clique aqui</a> para baixar.</p>
+    arquivos wav são pesados, não use!!!
+    -->
+</body>
+</html>

@@ -1,0 +1,27 @@
+BOX-LEVEL: ocupa a linha inteira, quebra a linha e continua o conteudo
+ex:
+div
+h1-h6
+p
+main
+header
+nav
+article
+aside
+footer
+form
+video
+
+inline-level : não quebra a linha e ocupa o espaço que precisa
+ex:
+span
+a
+code
+small
+strong
+em
+sup
+sub
+label
+button
+input

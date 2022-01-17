@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+#nomes{
+    background-color: burlywood;
+    color: white;
+}
+
+#hexa{
+    background-color: #0000ff5e;
+    color: #ffff;
+}
+/* 00 - ff(red);00 - ff(green);00 - ff(blue)
+quanto maior o número mais forte é a cor red, green ou blue. Quanto mais proximo do 00(preto) a cor é mais escura. Assim é possivel fazer muitas combinações. */
+
+#rgb{
+    background-color: rgb(0, 255, 200);
+}

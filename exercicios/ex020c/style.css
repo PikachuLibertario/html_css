@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+/*
+    # id
+    . class
+    : pseudo-class
+    :: pseudo-element
+    > children
+*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.especial{
+    color: red;
+}
+
+a{
+    color: green;
+    text-decoration: none; /*tira o sublinhado dos links*/
+    font-weight: bold;
+}
+/*cor dos links visitados ou não visitado*/
+
+/*
+    a:visited{
+    color: rgb(89, 148, 0);
+    text-decoration: none;
+}
+*/
+a:hover{
+    text-decoration: underline;
+    color: black;
+}
+/*quando passar o mouse por cima vai sublinhar os links*/
+
+a:active{
+    color: blue;
+}
+/*quando clicar o link fica azul*/
+
+.especial::after{
+    content: ' ⇤'; /*coloca simbolo seta*/
+    text-decoration: none;
+    font-weight: normal;
+    color: rebeccapurple;
+}
+/*pseudo-elemento*/
+
+.especial::before{
+    content: '⇥ ';
+    text-decoration: none;
+    font-weight: normal;
+    color: rebeccapurple;
+}

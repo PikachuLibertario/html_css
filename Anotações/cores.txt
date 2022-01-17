@@ -1,0 +1,46 @@
+Paleta de cores(12 cores):
+
+sugestão de cores de forma automática:
+https://color.adobe.com/create/color-wheel
+ou
+https://www.paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF
+ou
+https://coolors.co/
+
+cores primarias:
+amarelo, vermelho e azul
+
+segundarias:
+laranja, violeta e verde
+
+terciarias, variações da primaria + segundaria:
+amarelo-esverdeado, amarelo-alaranjado, vermelho-alaranjado,
+vermelho-arroxeado, azul-arroxeado, azul-esverdeado
+
+-temperatura das cores, esquerda do circulo cores frias e direita cores
+quentes.
+
+-Cores complementares, pega um cor do circulo e a cor complementar
+é a que está exatamente do lado oposto da cor escolhida.
+
+-Cores análogas, escolha uma cor do circulo de cores e a cor a esqueda
+e direita da cor escolhida são as cores análogas, não possuem tanto
+contraste entre si mas são harmonicas.
+
+-Cores análogas relacionadas, seleciona 2 cores uma do lado da outra e
+para direita ou esqueda pule a cor ao lado de uma das duas e a proxima
+é a cor que harmoniza.
+
+-Cores intercaladas, selecione uma cor e para direita ou esquerda pule uma
+e selecione a proxima, pule outra e selecione a proxima, fazendo isso quantas
+vezes desejar.
+
+-Cores triádicas, selecione uma cor e para direita ou esquerda pule sempre 3 cores e
+selecione a proxima e assim por diante sempre pulando 3 cores.
+
+-Cores em quadrado, segue o principio da anterior mas pulando 2 cores.
+
+-Cores tetrádicas, selecione uma cor+cor complementar e selecione outra cor+ complementar.
+formando 4 cores na paleta.
+
+-Monocromia, selecione uma cor e modifique seus parametros RGB(000000)

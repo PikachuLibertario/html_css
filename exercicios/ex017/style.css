@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body{
+    font-family: monospace, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /*testa a compatibilidade do dispositivo que está acessando o site com essas fontes que são similares e então aplica na página web*/
+
+    /*
+    medidas absolutas:
+    cm, mm, in(polegada), px, pt(ponto), pc(paica)
+
+    medidas relativas:
+    em(medida relativa ao tamanho atual da fonte), ex(medida relativa a altura x atual da fonte), rem(root), vv(largura em % da viewport, largura da tela), vh (altura da tela), %.
+    16px é geralmente 1em.
+    recomenda usar o PX ou EM(use esse de prefencia)!
+
+    weight: peso
+    */
+    font-size: 20px;
+    font-weight: bold; /*lighter, normal, bold, bolder. Ou 100 - 900*/
+    font-style: italic;
+    /*text-decoration: underline; sublinha o texto*/
+
+    /*forma simplificada de mudar as fontes
+    ordem(shorthand):
+    font-style > font-weight > font-size > font-family 
+    
+    font: italic bolder 1em 'work Sams', sams-serif;
+    */
+}
+
+/*
+    font-family: serif;
+    vai escolher uma fonte serifada
+
+    font-family: sans-serif;
+    vai escolher uma fonte não serifada
+
+    font-family: monospace;
+    vai escolher uma fonte monoespaçada
+*/
+
+/*h1, h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+*/

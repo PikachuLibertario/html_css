@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/*da esquerda pra direita*/
+/*body{
+    background-image:linear-gradient(to right, yellow, white)
+}
+*/
+/*configurações globais das CSS*/
+* {
+    height: 100%;
+}
+
+/*de baixo pra cima*/
+body{
+    background-image:linear-gradient(to top, #FCE762, #C05746, #E086D3, #8332AC, #462749);
+    background-attachment: fixed;
+    /*background-attachment: fixed; fixa o degrade mesmo rolando a pagina*/
+}
+/*de cima pra baixo*/
+/*
+body{
+    background-image:linear-gradient(to bottom, yellow, white)
+}
+*/
+/*
+    background-image:linear-gradient(to xdeg, #FCE762, #C05746, #E086D3, #8332AC, #462749);
+    xdeg ajusta o angulo das cores em graus
+*/
+/*deixar as cores em circulos
+      background-image:radial-gradient(circle, #FCE762, #C05746, #E086D3, #8332AC, #462749);  
+*/
+/*ajustando a largura da cor
+        background-image:linear-gradient(to right, #FCE762 20%, #C05746 x%, #E086D3 x%, #8332AC x%, #462749 x%);
+*/

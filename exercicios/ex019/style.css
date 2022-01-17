@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(150deg,#e684d2,rgb(201, 92, 92), #D6BBC0);
+    font-family: Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
+}
+h1{
+    color: #eea2d8;
+}
+#principal{
+    text-align: center;
+    color: #e07ecb;
+}
+/* 
+    id em css é #, só pode usar um id com nome 'principal' no mesmo documento.Não pode usar o mesmo nome do id.
+    class em css é . e pode usar mais de um class com mesmo nome.
+*/
+h2{
+    color: #dbaac8;
+}
+p{
+    text-align: justify;
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(0, 0, 0);
+}

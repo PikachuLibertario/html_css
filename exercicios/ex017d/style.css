@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+h1{
+    text-align: center;
+}
+p{
+    text-align: justify;
+    text-indent: 30px; /*margem de um texto*/
+}
