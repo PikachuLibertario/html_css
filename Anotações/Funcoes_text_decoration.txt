@@ -1,0 +1,30 @@
+/* Valores Chave */
+text-decoration: none;                 /* Sem decoração */
+text-decoration: underline red;        /* Sublinhado vermelho */
+text-decoration: underline wavy red;   /* Sublinhado ondulado vermelho */
+
+/* Valores Globais */
+text-decoration: inherit;
+text-decoration: initial;
+text-decoration: unset;
+
+Exemplos:
+
+h1.under {
+    text-decoration: underline;
+}
+h1.over {
+    text-decoration: overline;
+}
+p.line {
+    text-decoration: line-through;
+}
+p.blink {
+    text-decoration: blink;
+}
+a.none {
+    text-decoration: none;
+}
+p.underover {
+    text-decoration: underline overline;
+}
