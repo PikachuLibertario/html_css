@@ -8,6 +8,8 @@ text-decoration: inherit;
 text-decoration: initial;
 text-decoration: unset;
 
+vertical-align: top ----> deixa o tempo em cima
+
 Exemplos:
 
 h1.under {

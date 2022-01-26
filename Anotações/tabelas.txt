@@ -1,0 +1,3 @@
+Para tabela ficar melhor no celular:
+1- envelopar a tabela com a tag div
+2- criar no style para essa div com um id ou class o comando: 	overflow-x: auto;
