@@ -1,0 +1,56 @@
+label ---> serve para relacionar as caixas onde é digitado os dados
+com o nome do dado.
+ex:
+<h1>Meu Primeiro Formulário</h1>
+    <form action="cadastro.php" autocomplete="off">
+        <p><label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome">
+        </p>
+        <p><label for="isobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome" id="isobrenome">
+        </p>
+        <input type="submit" value="Enviar">
+    </form>
+
+Servem para os dados não aparecerem na url, porém ainda são visiveis:
+GET(dados menos sensiveis, peso, altura, etc), maximo até 3kb de dados
+POST(senhas, cartão de crédito, fotos)
+ex:
+ <form action="cadastro.php" method="post" autocomplete="off">
+
+!!!---Aprender sobre HTTPS para proteger os dados---!!!
+
+required ---> serve para não enviar os dados caso estejam em branco
+ex:
+<input type="text" name="usu" id="iusu" required>
+
+minlength ---> minimo de caracteres para ser enviado
+maxlength ---> maximo...
+ex:
+<input type="text" name="usu" id="iusu" required minlength="5" maxlength="15">
+
+
+autocomplete="current-password" ---> serve para preencher automaticamente com a senha atual
+
+step ---> de quanto em quanto muda o numero.
+ex:
+<input type="number" name="media" id="imedia" required max="10" step="0.1" placeholder="digite sua média">
+
+
+value ---> já preenche o campo com um dado, podendo ser mudado pelo usuario, excluindo o que está no placeholder.
+ex:
+<input type="number" name="media" id="imedia" required max="10" step="0.1" placeholder="digite sua média" value="5">
+
+
+!!!---Estudar sobre RegEx---!!!
+
+
+checked ---> já deixa marcado
+ex:
+<input type="radio" name="sex" id="ifem" checked>
+<label for="ifem">Feminino</label>
+
+
+value ---> atribui um valor exemplo
+<input type="radio" name="sex" id="ifem" value="F" checked>
+<label for="ifem">Feminino</label>

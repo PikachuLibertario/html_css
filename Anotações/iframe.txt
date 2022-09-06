@@ -1,0 +1,18 @@
+tamanho padrão:
+300x150
+
+scolling="auto"  ---> se o conteudo passar o tamanho permitira a rolagem
+scolling="yes" ---> mesmo que não exceda o tamanho aparece a rolangem de tela
+scolling="no" ---> não permite a rolagem.
+
+frameborder="0" ou "1" --> sem borda ou com borda.
+
+border: 1px solid black; --> cria um borda preta de 1 pixel
+
+
+sandbox="sandbox" ---> bloqueia o uso iframe
+referrerpolicy="no-referrer" ---> impede coleta de dados para propaganda
+
+sandbox="allow-same-origin allow-forms allw-scripts"
+permite iframe da mesma pasta e permite formularios
+e scripts.
