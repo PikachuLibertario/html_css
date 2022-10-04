@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+/*
+    TAMANHOS DE TELAS:
+
+    telas pequenas: até 600px
+    celular: 600px até 768px
+    tablet: 768px até 992px
+    PC: 992px até 1200px
+    TV: acima de 1200px
+*/
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
+    #login{
+        width: 80vw;
+    }
+
+    #imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    #formulario{
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px){
+    body{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
+    #login{
+        width: 950px;
+    }
+
+    #imagem{
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    #formulario{
+        float: left;
+        width: 50%;
+    }
+
+    #formulario h1{
+        font-size: 2em;
+    }
+
+    #formulario p{
+        font-size: 1.2em;
+    }
+}
